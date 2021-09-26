@@ -1,0 +1,14 @@
+class person {
+    constructor(qualification,age,place){
+
+        this.qualification=qualification;
+        this.age=age;
+        this.place=place;
+    }
+}
+const amar=new person("B.E",27,"vadalur");
+
+console.log(amar);
+
+//output:
+person { qualification: 'B.E', age: 27, place: 'vadalur' }
